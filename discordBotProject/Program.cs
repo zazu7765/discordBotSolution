@@ -29,7 +29,6 @@ namespace discordBotProject
         {
             if (message.Content == "!ping")
             {
-                Console.Write("yoohoo");
                 await message.Channel.SendMessageAsync("Pong!");
             }
         }
